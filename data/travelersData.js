@@ -1,0 +1,20 @@
+module.exports = {
+     firstTravellerFirstName: "Jan",
+     firstTravellerLastName: "Visser",
+     firstTravellerDayOfBirth: "10",
+     firstTravellerMonthOfBirth: "Oktober",
+     firstTravellerYearOfBirth: "1972",
+     secondTravellerFirstName: "Mirjam",
+     secondTravellerLastName: "Visser",
+     secondTravellerDayOfBirth: "3",
+     secondTravellerMonthOfBirth: "April",
+     secondTravellerYearOfBirth: "1975",
+     mainBookerPostalCode: "1852TB",
+     mainBookerHouseNumber: "23",
+     mainBookerStreet: "Termijen",
+     mainBookerCity: "Heiloo",
+     mainBookerEmail: "jan.visser.dummy@gmail.com",
+     mainBookerPhone: "0612345678",
+     contactPersonName: "Fam. Visser",
+     contactPersonPhone: "0612345687"  
+};

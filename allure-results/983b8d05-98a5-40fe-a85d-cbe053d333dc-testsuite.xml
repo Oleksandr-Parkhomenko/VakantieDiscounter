@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626210324069' stop='1626210361062'>
+    <name>Smoke Test Dé VakantieDiscounter.</name>
+    <title>Smoke Test Dé VakantieDiscounter.</title>
+    <test-cases>
+        <test-case start='1626210324069' status='broken' stop='1626210361055'>
+            <name>Happy flow customer journey</name>
+            <title>Happy flow customer journey</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element (".options-list__label-text=Amsterdam (Schiphol)") still not clickable after 30000ms</message>
+                <stack-trace>Error: element (".options-list__label-text=Amsterdam (Schiphol)") still not clickable after 30000ms
+                    at SearchResults_Page.selectAirportAndCareType (/Users/aliona/Desktop/Vakantiediscounter/pageObjects/SearchResults_Page.js:31:31)
+                    at Context.&lt;anonymous> (/Users/aliona/Desktop/Vakantiediscounter/tests/bookVacantieTests.js:26:24)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
